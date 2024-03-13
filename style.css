@@ -1,5 +1,6 @@
 #navbar{
     margin-left: 60%;
+    list-style: none;
 }
 
 #pot1{
@@ -16,11 +17,13 @@
 }
 
 #div2{
-    display: flex;
+display: grid;
+grid-template-columns: 700px 700px 400px;
 }
 
 #div3{
-    display: flex;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
 }
 
 #div4{
@@ -29,7 +32,7 @@
 
 #div5{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
 #bpot{
@@ -44,4 +47,44 @@
     display: flex;
 }
 
-@media screen and (min-width: 414px) and ()
+#footer{
+    display: flex;
+    list-style: none;
+}
+
+
+
+
+
+@media screen and (min-width: 390px) and (max-width: 939px){
+    #navbar{
+        display: grid;
+    }
+
+    }
+
+   #div1{
+    font-size: 60%;
+    display: grid;
+   }
+
+   #div2{
+   display: grid;
+   }
+
+   #saleplant{
+    width: 5%;
+   }
+
+   #div3{
+    display: grid;
+   }
+
+#footer{
+    display: grid;
+}
+   
+
+
+
+
