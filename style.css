@@ -1,19 +1,77 @@
 #navbar{
     margin-left: 60%;
-    list-style: none;
+    list-style-type: none;
 }
 
 #pot1{
-    width: 30%;
+    width: 80%;
 }
 
 #div1{
-    display: flex;
+display: grid;
+grid-template-columns: 50% 50%;
 }
 
+#latest{
+    display: flex;
+    gap: 15%;
+
+}
+
+#column3{
+    display: flex;
+    gap: 5%;
+}
+
+#model1{
+    width: 30%;
+}
+
+#clients{
+    display: flex;
+    gap: 20%;
+    margin-left: 20%;
+}
+
+#model2{
+    width: 70%;
+}
+
+#button2{
+  background-color: green;
+    
+}
+#text4{
+    text-align: center;
+}
+
+#text3{
+    text-align: center;
+}
 #saleplant{
     width: 5%;
     height: 3%
+}
+
+#header{
+    display: flex;
+    gap: 50%;
+    background-color: green;
+    height: 5%;
+}
+
+#icons{
+    display: flex;
+    gap: 5%;
+    margin-left: 5%;
+}
+#all{
+    text-align: center;
+    margin-left: 55%;
+}
+
+#featureproducts{
+    text-align: center;
 }
 
 #div2{
@@ -26,21 +84,76 @@ grid-template-columns: 700px 700px 400px;
     grid-template-columns: 20% 20% 20%;
 }
 
-#div4{
-    display: flex;
+#columnimage{
+    grid-template-columns: 3%;
 }
 
+
+#but1{
+    background-color: greenyellow;
+    border-radius: 10%;
+}
+
+.image3{
+    width: 56%;
+    grid-template-columns: 20px 300px 500px 400px;
+}
+#column1{
+    display: flex;
+    gap: 5%;
+    /* column-gap: 0%; */
+}
+.treebottle{
+    display: flex;
+}
+#greyvase{
+    margin-left: 100%;
+}
+
+#texts{
+    text-align: center;
+}
+
+#table1{
+    display: flex;
+  gap: 1%;
+  
+}
+#snowplant{
+    width: 13%;
+}
+
+#but2{
+    background-color: greenyellow;
+}
+
+#div4{
+    display: grid;
+    grid-template-columns: 505 50%;
+}
+
+#column2{
+    display: flex ;
+    gap: -10%;
+}
 #div5{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
 }
 
+.image4{
+    width: 50%;
+}
+
+#sillplant{
+    width: 40%;
+}
 #bpot{
-    width:10%;
+    width:40%;
 }
 
 #bigpot{
-    width: 10%;
+    width: 40%;
 }
 
 #div6{
@@ -48,42 +161,125 @@ grid-template-columns: 700px 700px 400px;
 }
 
 #footer{
-    display: flex;
-    list-style: none;
+  display: grid;
+  grid-template-columns: 50px 200px 400px 200px;
+  margin-left: 20%;
+ 
+}
+
+#products{
+
+}
+
+#foot1{
+    list-style-type: none;
+}
+
+#foot2{
+    list-style-type: none;
+}
+
+#thirdf{
+    list-style-type: none;
+}
+
+#secondf{
+  list-style-type: none;
 }
 
 
 
 
 
-@media screen and (min-width: 390px) and (max-width: 939px){
+@media screen and (min-width: 375px) and (max-width: 939px){
     #navbar{
         display: grid;
+        margin-left: 2%;
     }
 
-    }
+
+    
 
    #div1{
     font-size: 60%;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
    }
 
-   #div2{
-   display: grid;
-   }
+ #div2{
+    display: flex;
+    flex-wrap: wrap;
+
+ }
 
    #saleplant{
-    width: 5%;
+    width: 3%;
+    display: flex;
+    flex-wrap: wrap;
    }
 
    #div3{
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
    }
 
 #footer{
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
 }
-   
+
+#products{
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+#div4{
+    display: flex;
+    flex-wrap: wrap;
+}
+#column1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#column2{
+    display: flex;
+    flex-wrap: wrap;
+}
+ #treebottle{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ #all{
+    margin-right: 20%;
+ }
+ 
+ #header{
+    display: grid;
+  
+ }
+
+ #pot1{
+    width: 50%;
+ }
+
+ #saleplants{
+    width: 50%;
+ }
+ 
+ #yellowpot{
+    width: 40%;
+ }
+
+ #all{
+    margin-left: 0%;
+ }
+
+ #featuredproducts{
+  font-size: small;
+ }
+}
 
 
 
